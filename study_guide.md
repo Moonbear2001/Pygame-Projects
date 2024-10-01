@@ -13,5 +13,3 @@ Order in which to do projects:
 - Snake
   - Use more coordinates
   - Lots of practice with lists
-
-Onto different language.
