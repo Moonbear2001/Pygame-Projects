@@ -13,3 +13,8 @@ Order in which to do projects:
 - Snake
   - Use more coordinates
   - Lots of practice with lists
+- Slots
+  - Simple game logic for determining payout
+  - Using a sprite sheet
+- Geometry Dash
+  -
