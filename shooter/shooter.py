@@ -17,6 +17,7 @@ SCOPE_SIZE = 24
 # Pygame setup
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+pygame.display.set_caption("Shooter")
 clock = pygame.time.Clock()
 running = True
 
