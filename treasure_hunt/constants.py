@@ -1,0 +1,10 @@
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 720
+
+PROTAG_SIZE = 40
+TREASURE_SIZE = 20
+
+FPS = 60
+
+DUNGEON_FOLDER = "treasure_hunt/dungeons"
+

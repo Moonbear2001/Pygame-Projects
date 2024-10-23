@@ -1,0 +1,33 @@
+{
+  "starting_room": "Room1",
+  "treasure_room": "Room3",
+  "rooms": {
+    "Room1": {
+      "name": "Entrance Hall",
+      "connections": {
+        "north": null,
+        "south": "Room2",
+        "east": null,
+        "west": null
+      }
+    },
+    "Room2": {
+      "name": "Hall of Statues",
+      "connections": {
+        "north": "Room1",
+        "south": null,
+        "east": null,
+        "west": "Room3"
+      }
+    },
+    "Room3": {
+      "name": "Secret Library",
+      "connections": {
+        "north": null,
+        "south": null,
+        "east": "Room2",
+        "west": null
+      }
+    }
+  }
+}

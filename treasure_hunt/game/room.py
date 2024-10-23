@@ -15,6 +15,8 @@ class Room:
         self.name = name
         self.connections = {"north": None, "south": None, "east": None, "west": None}
         self.doors = pygame.sprite.Group()
+        self.visited = False
+        self.has_treasure = False
 
     def connect(self, direction, other_room):
         
@@ -26,4 +28,7 @@ class Room:
     def draw(self):
         self.screen.fill("black")
         self.doors.draw(self.screen)
+
+    def enter(self):
+        self.visited = True
 

@@ -12,7 +12,6 @@ BACKGROUND_COLOR = (0, 0, 0)
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Pygame Project")
 
-# Set up the clock for controlling frame rate
 clock = pygame.time.Clock()
 
 def main():
@@ -26,7 +25,8 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
 
-        # Game logic 
+        # Game logic
+        
 
         # Drawing 
         screen.fill(BACKGROUND_COLOR) 

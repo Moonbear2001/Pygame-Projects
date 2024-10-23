@@ -1,0 +1,61 @@
+{
+    "starting_room": "Room1",
+    "treasure_room": "Room5",
+    "rooms": {
+      "Room1": {
+        "name": "Entrance Hall",
+        "connections": {
+          "north": "Room2",
+          "south": null,
+          "east": null,
+          "west": null
+        }
+      },
+      "Room2": {
+        "name": "Chamber of Echoes",
+        "connections": {
+          "north": "Room3",
+          "south": "Room1",
+          "east": "Room4",
+          "west": null
+        }
+      },
+      "Room3": {
+        "name": "Guardian's Watch",
+        "connections": {
+          "north": null,
+          "south": "Room2",
+          "east": "Room5",
+          "west": null
+        }
+      },
+      "Room4": {
+        "name": "Silent Hallway",
+        "connections": {
+          "north": null,
+          "south": null,
+          "east": "Room6",
+          "west": "Room2"
+        }
+      },
+      "Room5": {
+        "name": "Cursed Altar",
+        "connections": {
+          "north": null,
+          "south": null,
+          "east": null,
+          "west": "Room3"
+        }
+      },
+      "Room6": {
+        "name": "Chamber of Secrets",
+        "connections": {
+          "north": null,
+          "south": null,
+          "east": null,
+          "west": "Room4"
+        }
+      }
+    }
+  }
+  

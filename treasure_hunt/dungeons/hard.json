@@ -1,0 +1,79 @@
+{
+    "starting_room": "Room1",
+    "treasure_room": "Room7",
+    "rooms": {
+      "Room1": {
+        "name": "Entrance Gate",
+        "connections": {
+          "north": "Room2",
+          "south": null,
+          "east": "Room3",
+          "west": null
+        }
+      },
+      "Room2": {
+        "name": "Hall of Mirrors",
+        "connections": {
+          "north": "Room4",
+          "south": "Room1",
+          "east": null,
+          "west": "Room5"
+        }
+      },
+      "Room3": {
+        "name": "Forgotten Corridor",
+        "connections": {
+          "north": null,
+          "south": null,
+          "east": "Room6",
+          "west": "Room1"
+        }
+      },
+      "Room4": {
+        "name": "Chamber of Whispers",
+        "connections": {
+          "north": "Room7",
+          "south": "Room2",
+          "east": null,
+          "west": null
+        }
+      },
+      "Room5": {
+        "name": "Treasure Vault",
+        "connections": {
+          "north": null,
+          "south": null,
+          "east": "Room2",
+          "west": null
+        }
+      },
+      "Room6": {
+        "name": "Underground Sanctuary",
+        "connections": {
+          "north": null,
+          "south": null,
+          "east": "Room8",
+          "west": "Room3"
+        }
+      },
+      "Room7": {
+        "name": "Guardian's Lair",
+        "connections": {
+          "north": null,
+          "south": "Room4",
+          "east": null,
+          "west": null
+        }
+      },
+      "Room8": {
+        "name": "Mystic Chamber",
+        "connections": {
+          "north": null,
+          "south": null,
+          "east": null,
+          "west": "Room6"
+        }
+      }
+    }
+  }
+  
